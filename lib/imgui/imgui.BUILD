@@ -16,7 +16,7 @@ cc_library(
         "backends/imgui_impl_glfw.cpp",
         "backends/imgui_impl_vulkan.cpp",
     ],
-    deps = ["@glfw//:glfw"],
+    deps = ["@libglfw", "@libvulkan"],
     includes = [".", "backends"],
     linkstatic = True,
     visibility = ["//visibility:public"],

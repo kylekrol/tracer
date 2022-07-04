@@ -1,6 +1,6 @@
 
 alias(
-    name = "glfw",
-    actual = "@glfw",
+    name = "libvulkan",
+    actual = "@libvulkan",
     visibility = ["//visibility:public"],
 )
